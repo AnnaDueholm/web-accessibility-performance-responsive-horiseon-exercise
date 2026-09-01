@@ -15,13 +15,18 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+.logo  {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.logo .seo {
     color: #d9dcd6;
+}
+
+.header h1 {
+     display: inline-block;
+    font-size: 18px;
 }
 
 .header nav {
@@ -84,6 +89,12 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+.benefits h2{
+    margin-bottom: 32px;
+    color: #ffffff;
+     text-align: center;
 }
 
 .benefit-lead {
@@ -195,6 +206,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer-text {
     font-size: 20px;
 }
