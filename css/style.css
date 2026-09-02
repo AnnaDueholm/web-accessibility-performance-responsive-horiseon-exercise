@@ -13,6 +13,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo  {
@@ -25,16 +28,14 @@ body {
 }
 
 .header h1 {
-     display: inline-block;
-    font-size: 18px;
+font-size: 18px;
 }
 
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+padding-top: 15px;
+margin-right: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
 }
 
 .header nav ul {
